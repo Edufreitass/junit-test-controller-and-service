@@ -5,6 +5,9 @@ public class Hello {
 	private String title;
 	private String value;
 
+	public Hello() {
+	}
+	
 	public Hello(String title, String value) {
 		this.title = title;
 		this.value = value;
